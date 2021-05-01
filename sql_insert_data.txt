@@ -1,0 +1,80 @@
+INSERT INTO coctails (
+						coctailName,
+						category,
+						type,
+						glass,
+						instructions,
+						imageUrl,
+						ingredients,
+						measures
+					)
+VALUES (
+		'A1',
+		'Cocktail',
+		'Alcoholic',
+		'Cocktail glass',
+		'Pour all ingredients into a cocktail shaker, mix and serve over ice into a chilled glass.',
+		'https://www.thecocktaildb.com/images/media/drink/2x8thr1504816928.jpg',
+		'Gin;Grand Marnier;Lemon Juice;Grenadine',
+		'1 3/4 shot;1 Shot;1/4 Shot;1/8 Shot'
+		);
+INSERT INTO coctails (
+						coctailName,
+						category,
+						type,
+						glass,
+						instructions,
+						imageUrl,
+						ingredients,
+						measures
+					)
+VALUES (
+		'ABC',
+		'Shot',
+		'Alcoholic',
+		'Shot glass',
+		'Layered in a shot glass.',
+		'https://www.thecocktaildb.com/images/media/drink/tqpvqp1472668328.jpg',
+		'Amaretto;Baileys irish cream;Cognac',
+		'1/3;1/3;1/3'
+);
+INSERT INTO coctails (
+						coctailName,
+						category,
+						type,
+						glass,
+						instructions,
+						imageUrl,
+						ingredients,
+						measures
+					)
+VALUES (
+		'Ace',
+		'Cocktail',
+		'Alcoholic',
+		'Martini Glass',
+		'Shake all the ingredients in a cocktail shaker and ice then strain in a cold glass.',
+		'https://www.thecocktaildb.com/images/media/drink/l3cd7f1504818306.jpg',
+		'Gin;Grenadine;Heavy cream;Milk;Egg White',
+		'2 shots;1/2 shot;1/2 shot;1/2 shot;1/2 Fresh'
+);
+INSERT INTO coctails (
+						coctailName,
+						category,
+						type,
+						glass,
+						instructions,
+						imageUrl,
+						ingredients,
+						measures
+					)
+VALUES (
+		'Adam',
+		'Ordinary Drink',
+		'Alcoholic',
+		'Cocktail glass',
+		'In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a cocktail glass.',
+		'https://www.thecocktaildb.com/images/media/drink/v0at4i1582478473.jpg',
+		'Dark rum;Lemon juice;Grenadine',
+		'2 oz;1 oz;1 tsp '
+);

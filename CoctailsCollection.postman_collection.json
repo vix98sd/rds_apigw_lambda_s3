@@ -1,0 +1,57 @@
+{
+	"info": {
+		"_postman_id": "6b084aa9-39b0-49fb-a811-c28c147fd570",
+		"name": "CoctailsCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getAllCoctails",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://b393ka3x98.execute-api.us-east-1.amazonaws.com/v1/coctails/",
+					"protocol": "https",
+					"host": [
+						"b393ka3x98",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"v1",
+						"coctails",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getCoctailById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://b393ka3x98.execute-api.us-east-1.amazonaws.com/v1/coctails/368",
+					"protocol": "https",
+					"host": [
+						"b393ka3x98",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"v1",
+						"coctails",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
