@@ -24,14 +24,13 @@ def lambda_handler(event, context):
         }))
     
     return {
-        "coctailId" : user_data[0],
-        "coctailName" : user_data[1],
-        "instructions" : user_data[2],
-        "ingredients" : user_data[3],
-        "ingredients" : user_data[4],
-        "measures" : user_data[5],
-        "imageUrl" : user_data[6],
-        "category" : user_data[7],
-        "type" : user_data[8],
-        "glass" : user_data[9]
+        "coctailId" : coctail_data[0],
+        "coctailName" : coctail_data[1],
+        "instructions" : coctail_data[2],
+        "ingredients" : coctail_data[3],
+        "measures" : coctail_data[4],
+        "imageUrl" : coctail_data[5],
+        "category" : coctail_data[6],
+        "type" : coctail_data[7],
+        "glass" : coctail_data[8]
     }

@@ -7,7 +7,7 @@ def lambda_handler(event, context):
     conn = makeDatabaseConnection()
     
     if conn != None:
-       coctail_data = get_data(conn, )
+       user_data = get_data(conn, )
     else:
           raise Exception ( json.dumps({
             "statusCode": 400, 
@@ -16,4 +16,4 @@ def lambda_handler(event, context):
             }
         }))
     
-    return coctail_data
+    return user_data

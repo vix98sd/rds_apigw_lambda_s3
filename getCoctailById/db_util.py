@@ -6,8 +6,8 @@ def makeDatabaseConnection():
     
     db_name = 'edu'
     db_user = 'education'
-    db_host = 'edu-1.c5rdbdjns2kx.us-east-1.rds.amazonaws.com'
-    db_pass = 'zarko1993'
+    db_host = 'edu-1.cpxvqniywpkp.us-east-1.rds.amazonaws.com'
+    db_pass = 'vanja1998'
     
     conn = None
     
